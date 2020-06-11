@@ -13,7 +13,7 @@ var Stream = require('stream'),
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 function ReadableStream(init) {
-  Stream.super_.call(this);
+  Stream.Readable.call(this);
   this._data = init || '';
 }
 inherits(ReadableStream, Stream.Readable);
