@@ -20,12 +20,6 @@
     "haystack"
   ],
   "dependencies": {
-    "moment-timezone": "^0.3.0"
-  },
-  "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-jsdoc": "^0.5.8",
-    "ink-docstrap": "^0.5.2",
-    "jsdoc": "^3.3.0-beta3"
+    "moment-timezone": "^0.5.38"
   }
 }
